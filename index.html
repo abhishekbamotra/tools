@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Formatter Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>JSON Formatter Tool</h1>
+    <div id="input-container">
+      <label for="json-input">Enter your JSON:</label>
+      <textarea id="json-input"></textarea>
+    </div>
+    <div id="output-container">
+      <label for="json-output">Formatted JSON:</label>
+      <textarea id="json-output" readonly></textarea>
+    </div>
+    <button id="copy-button" onclick="copyToClipboard()" onmouseout="resetCopyToolTip()">
+      Copy to Clipboard
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

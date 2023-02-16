@@ -1,0 +1,60 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.input, .output {
+    margin-bottom: 20px;
+}
+
+textarea, pre {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+button:active {
+    background-color: #29772a;
+}
+
+#copyButton.copied {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
